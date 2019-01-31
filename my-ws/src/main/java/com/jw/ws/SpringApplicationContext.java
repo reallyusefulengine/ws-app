@@ -10,7 +10,7 @@ public class SpringApplicationContext implements ApplicationContextAware{
 	
 	@Override
 	public void setApplicationContext(ApplicationContext context) throws BeansException {
-		// TODO Auto-generated method stub
+		CONTEXT = context;
 		
 	}
 
